@@ -13,5 +13,62 @@
 }
 
 .container{
-    margin-bottom: 50px;
+    margin-bottom: 100px;
+}
+
+
+.btn-primary{
+    background-image: linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    padding: 10px 25px;   
+    cursor: pointer; 
+}
+
+
+.cat1{
+background-color: orange;
+padding: 10px 30px;
+}
+
+.cat2{
+    background-color: orangered;
+    padding: 10px 30px;
+}
+
+.cat3{
+    background-color: orchid;
+    padding: 10px 30px;
+}
+
+.categories h1{
+    color: white;
+}
+
+.categories img {
+width:100px;
+}
+
+.card{
+    border: none;
+    border-radius: 5px;
+    box-shadow: 5px 5px 5px lightgrey;
+}
+
+.heading{
+    text-align: center;
+}
+
+.container-heading{
+    width: 1300px;
+    height: 5px;
+    background-color: orangered;
+    display: inline-block;
+    box-shadow: 10px 10px 10px linear-gradient(to bottom, #ff589b 0%, #ff136f 100%);
+}
+
+.card-footer{
+    background-color: white;
+    border-top: none;
 }
